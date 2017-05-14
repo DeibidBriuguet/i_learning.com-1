@@ -1,0 +1,40 @@
+body{
+	margin: 0;	
+}
+
+header{
+	padding: .8em;
+	background-color: #42A5F5;
+}
+
+/* Lista de barra de navegacion */
+#barra-de-navegacion li{
+	display: inline-block;
+	background-color: #42A5F5;
+	color: white;
+	border-radius: 15px;
+}
+
+#barra-de-navegacion li:hover{
+	background-color: #01579B;
+	color: white;
+}
+
+/* Iconos en el navbar */
+span[class*="icon-"]{
+	font-size: 17px;
+}
+
+/* Links en el navbar */
+nav li > a{
+	display: inline-block;
+	/* Importando letra estilo Roboto */
+	font-family: font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: white;
+	border-radius: 15px;
+	padding: 1.5em 2em;
+}
+
+
+
