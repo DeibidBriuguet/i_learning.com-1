@@ -1,0 +1,5 @@
+/* Quita el margen y el relleno de todos los elementos */
+*{
+	margin: 0;
+	padding: 0;
+}
